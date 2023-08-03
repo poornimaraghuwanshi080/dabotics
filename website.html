@@ -1,0 +1,208 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta channel charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <meta http-eqiv="X-UA-COMPATIBLE" content="ie=edge">
+<meta name="author" content="poornima raghuwanshi">
+
+   <link rel="stylesheet" href="D:\Users\admin\Desktop\project\style2.css">
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>home decoration</title>
+    </head>
+    <body>
+                <div class="sidebar">
+                  <div class="logo-details">
+                    <i class='bx bxl-c-plus-plus icon'></i>
+                      <div class="logo_name">decorist</div>
+                      <i class='bx bx-menu' id="btn" ></i>
+                  </div>
+                  <ul class="nav-list">
+                    <li>
+                        <i class='bx bx-search' ></i>
+                       <input type="text" placeholder="Search...">
+                       <span class="tooltip">Search</span>
+                    </li>
+                    <li>
+                      <a href="C:\Users\admin\Desktop\project\registration.html">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                      </a>
+                       <span class="tooltip">Dashboard</span>
+                    </li>
+                    <li>
+                     <a href="C:/Users/admin/Desktop/project/major project.html">
+                       <i class='bx bx-user' ></i>
+                       <span class="links_name">designer services</span>
+                     </a>
+                     <span class="tooltip">designer services</span>
+                   </li>
+                   <li>
+                     <a href="#">
+                       <i class='bx bx-chat' ></i>
+                       <span class="links_name">Our designer</span>
+                     </a>
+                     <span class="tooltip">Our designer</span>
+                   </li>
+                   <li>
+                     <a href="C:\Users\admin\Desktop\project\client projects.html">
+                       <i class='bx bx-pie-chart-alt-2' ></i>
+                       <span class="links_name">Client project</span>
+                     </a>
+                     <span class="tooltip">Client project</span>
+                   </li>
+                   <li>
+                     <a href="C:\Users\admin\Desktop\project\AboutUs.html">
+                       <i class='bx bx-folder' ></i>
+                       <span class="links_name">About us</span>
+                         
+                     </a>
+                     <span class="tooltip">Blogs</span>
+                   </li>
+                   <li>
+                     <a href="C:/Users/admin/Desktop/project/registration.html">
+                       <i class='bx bx-cart-alt' ></i>
+                       <span class="links_name">Order</span>
+                     </a>
+                     <span class="tooltip">Order</span>
+                   </li>
+                        <li>   
+                     <a href="#">
+                       <i class='bx bx-cog' ></i>
+                       <span class="links_name">Setting</span>
+                     </a>
+                     <span class="tooltip">Setting</span>
+                   </li>
+                   <li class="profile">
+                       <div class="profile-details">
+                                    <div class="name_job">
+                           <div class="name">Poornima raghuwanshi</div>
+                           <div class="job">Web designer</div>
+                         </div>
+                       </div>
+                       <i class='bx bx-log-out' id="log_out" ></i>
+                   </li>
+                  </ul>
+                </div>
+                 <script>
+                let sidebar = document.querySelector(".sidebar");
+                let closeBtn = document.querySelector("#btn");
+                let searchBtn = document.querySelector(".bx-search");
+              
+                closeBtn.addEventListener("click", ()=>{
+                  sidebar.classList.toggle("open");
+                  menuBtnChange();//calling the function
+                });
+              
+                searchBtn.addEventListener("click", ()=>
+                { 
+                  sidebar.classList.toggle("open");
+                  menuBtnChange(); //calling the function
+                });
+              
+                
+                function menuBtnChange() {
+                 if(sidebar.classList.contains("open")){
+                   closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+                 }else {
+                   closeBtn.classList.replace("bx-menu-alt-right","bx-menu");
+                 }
+                }
+                </script>
+
+            <header id="showcase" class="grid">
+          <div class="bg-image"></div>
+    <div class="content-wrap">
+    <h2>The easiest way to design a beautiful home.</h2>
+    <p><I>The simplicity in design provides an inviting atmosphere and clean, expansive space with room to breathe.
+        Interior design, amongst all of the design trades, is perhaps the most reliant on the inspiration of the individual.
+        It is also arguably the most subjective.Whether you're searching for some inspiration to begin a new project or 
+        are in need of some wisdom from some of the greats, 
+        we've compiled a selection of the most popular interior designs from around the internet.</I></p>
+<a href="   C:\Users\admin\Desktop\project\enter your requirements.html" class="btn">Enter your requirments</a>
+</div></header>
+<main id="main">
+    <section id="section-a" class="grid">
+        <div class="content-wrap">
+            <h2 class="content-title">WE’RE HERE TO HELP</h2>
+             <p>home decoration is an online interior design service that matches you with a friendly designer to work with you to pull your room together in your style and budget.</p>
+            </div>
+    </section>
+
+ <section id="section-b" class="grid">
+        <ul>
+            <li>
+                <div class="card">
+<img src="C:\Users\admin\Desktop\project\projectimages\images0.jfif" alt="">
+            <div class="card-content">
+                <h3 class="card-title">kick off your project</h3>
+                <p>It starts with our fun and easy project questionnaire where you’ll provide details about your room, design needs, budget, and inspiration.</p>
+            </div>
+            </div>
+            </li>
+            <li>
+                <div class="card">
+    <img src="C:\Users\admin\Desktop\project\projectimages\download (12).jfif" alt="">
+            <div class="card-content">
+                <h3 class="card-title">Collaborate With Your Designer</h3>
+                <p>After getting matched, your designer will message with you to collaborate on ideas before sending your initial concepts to rate and review.</p>
+            </div>
+            </div>
+            </li>
+            <li>
+                <div class="card">
+    <img src="C:\Users\admin\Desktop\project\projectimages\download (21).jfif" alt="">
+            <div class="card-content">
+                <h3 class="card-title">Visualize Your New Room And Shop</h3>
+                <p>Your designer incorporates feedback into the final room design and layout with a personalized list of furniture and accessories to shop all online..</p>
+            </div>
+            </div>
+            </li>
+        </ul>
+        </section>
+        <section id="section-c" class="grid">
+            <div class="content-wrap">
+<h2 class="content-title">we handle all of your digital needs</h2>
+<p> Your direct line to the best interior designers.
+    You’ll have online access to your designer throughout the process to get all the details right.</p> 
+    <a href="C:\Users\admin\Desktop\project\login page.html" class="btn">meet our talented designers</a>          
+</div>        
+        </section>
+    <section id="section-d" class="grid">
+        <div class="box">
+            <h2 class="content-title">Our Interior Designers</h2>
+<p>You’ll work with an interior designer throughout the entire project. Our online interior design platform allows you and your designer to exchange messages, ideas, pictures and feedback at any time.
+    Pick from our 3 tiers of online interior designers, all of which are experienced at working with a range of budgets and rooms. A great way to start is to look at a few designer portfolios to see if anyone catches your eye. Or, our team can match you with a designer based on the information you’ve provided us.
+   </p>
+</div>
+    <div class="box">
+    <h2 class="content-title">Shop Confidently</h2>
+    <p>Think of your designer as your insider access to new up-and-coming brands, trade-only brands, and budget-friendly finds. We’ll also mix in affordable big-brand retailers.
+          One of the biggest hurdles of interior design is visualizing exactly what your new room will look like. Our online interior design experience includes an optional photo-realistic 3D rendering of your new room – it’s like your very own “after” photoshoot, before you start to shop.
+         Your online interior design project includes two different initial design concepts for you to pick from, a final design, a detailed floor plan, and a personalized online shopping list of furniture and decor.</p>
+    </div></div>
+</section>
+
+<div class="callout">
+  <div class="callout-header">shop now</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>save up to 25% on the big storage & org event!<a href="C:\Users\admin\Desktop\project\registration.html">shop now</a> </p>
+  </div>
+</div>
+</main>
+<footer>
+        <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &copy; 2022 <a href="#">Decorist.</a>&copy;All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+    </body>
+</html>
